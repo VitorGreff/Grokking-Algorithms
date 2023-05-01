@@ -15,4 +15,4 @@ def binarySearch(arr, low, high, x):
 
 
 list = [2,3,1,4,5,6]
-print(binarySearch(list, 0, len(list) - 1, 2))
+print(binarySearch(list, 0, len(list) - 1, 6))
