@@ -4,8 +4,6 @@ class Bst:
         self.right = None
         self.value = value
 
-
-
     def insert(self, value):
         if value < self.value:
             if self.left is None:
@@ -65,4 +63,4 @@ tree.insert(2)
 
 # tree.inorder_traversal()
 # tree.preorder_traversal()
-print(tree.find(99))
+print(tree.find(5))

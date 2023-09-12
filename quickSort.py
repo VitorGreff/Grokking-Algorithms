@@ -9,4 +9,3 @@ def quick_sort(arr):
         return quick_sort(less) + [pivot] + quick_sort(greater)
     
 print(quick_sort([10,5,2,3]))
-
